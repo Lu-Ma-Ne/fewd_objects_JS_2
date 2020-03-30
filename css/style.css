@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #fff;
+  background: url("../images/background_hotel_galicia.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;}
+
+h1 {
+  background: #1e1b1e url("../images/travelworthy_logo.gif") no-repeat;
+  width: 230px;
+  height: 180px;
+  float: left;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;}
+
+h2 {
+  margin: 1.75em 0 0 0;
+  color: #00cc00; 
+  font-weight: normal;}
+
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0;}
+p + h2 {
+  margin: 10px 0 0 0;}
+
+/* black bar across the right hand side of the page */
+
+#info {
+  background-color: #1e1b1e;
+  color: #fff;
+  width: 200px;
+  padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 15%;}
+
+/* footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ff8566;}
+
+#footer p {
+  padding: 10px;
+  margin: 0;}
+
+.data {
+  padding: 10px;}
