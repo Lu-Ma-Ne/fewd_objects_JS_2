@@ -21,4 +21,7 @@ var randomNum = Math.floor((Math.random() * 20) +1);
 var el3 = document.getElementById('info');
 el3.innerHTML += '<h2>random number</h2><p>' + randomNum + '</p>';
 
-//var today = new Date();
+var today = new Date();
+/*var year = today.getFullYear();*/
+var el4 = document.getElementById('info');
+el4.innerHTML += '<h2>today is</h2><p>' + today + '</p>';
